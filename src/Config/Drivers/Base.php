@@ -1,7 +1,7 @@
 <?php
 
 namespace Gkr\Support\Config\Drivers;
-use Illuminate\Foundation\Application;
+use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\Arr;
 use Illuminate\Contracts\Config\Repository as ConfigContract;
 use Symfony\Component\Filesystem\Filesystem;
