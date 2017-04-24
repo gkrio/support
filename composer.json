@@ -1,0 +1,38 @@
+{
+    "name": "gkr/support",
+    "description": "Support Components of Gkr Packages",
+    "license": "MIT",
+    "keywords": [
+        "gkr",
+        "gkr.io",
+        "support",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "lichnow",
+            "email": "lichnow@gmail.com",
+            "homepage": "http://gkr.io",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^5.5.9 || ^7.0",
+        "illuminate/support": "5.4.*|5.5.*",
+        "illuminate/contracts": "5.4.*|5.5.*",
+        "symfony/filesystem": "^3.2",
+        "symfony/yaml": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gkr\\Support\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
