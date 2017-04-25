@@ -19,7 +19,8 @@
     "require": {
         "php": "^5.5.9 || ^7.0",
         "illuminate/support": "5.4.*|5.5.*",
-        "illuminate/contracts": "5.4.*|5.5.*",
+        "illuminate/container": "5.4.*|5.5.*",
+        "illuminate/config": "5.4.*|5.5.*",
         "symfony/filesystem": "^3.2",
         "symfony/yaml": "^3.2"
     },
