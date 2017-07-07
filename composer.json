@@ -22,9 +22,14 @@
         "illuminate/container": "^5.1",
         "illuminate/config": "^5.1",
         "symfony/filesystem": "^3.2",
-        "symfony/yaml": "^3.2"
+        "symfony/yaml": "^3.2",
+        "erusev/parsedown": "^1.6",
+        "ezyang/htmlpurifier": "^4.9"
     },
     "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
         "psr-4": {
             "Gkr\\Support\\": "src"
         }
